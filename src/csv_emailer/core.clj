@@ -35,8 +35,8 @@
                                   code)}])]
     (try
       (println (str "Sending message to: " addr))
-      (email/send-message outgoing mail-info-full))
-    (catch Exception e (println "Error sending message: " (.getMessage e)))))
+      (email/send-message outgoing mail-info-full)
+    (catch Exception e (println "Error sending message: " (.getMessage e))))))
 
 ;; entry point for 'lein run'
 (defn -main
