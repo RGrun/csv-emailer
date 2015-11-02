@@ -30,9 +30,9 @@
                          :body [{:type "text/html"
                                 :content
                                  (clojure.string/replace
-                                 (slurp "resources/template.html")
-                                 #"\[CODE\]"
-                                 code)}])]
+                                  (slurp "resources/template.html")
+                                  #"\[CODE\]"
+                                  code)}])]
     (try
       (println (str "Sending message to: " addr))
       (email/send-message outgoing mail-info-full))
