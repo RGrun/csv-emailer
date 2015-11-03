@@ -13,9 +13,9 @@ I decided to publish this to GitHub because I figured it might be a useful tool 
 
 ## Installation
 
-Simply clone this repo. You'll have to do a little configuration in the `core.clj` file after installation.
+Simply clone this repo. You'll have to do a little configuration in the `core.clj` file after cloning.
 
-You'll need the Clojure build tool Lienigen to use CSV Emailer.
+You'll need the Clojure build tool Leiningen to use CSV Emailer.
 
 ## Usage
 
